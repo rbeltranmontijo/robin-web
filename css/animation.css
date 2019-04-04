@@ -1,0 +1,55 @@
+.btn{
+    animation: modalIn .8s forwards; 
+}
+@keyframes modalIn {
+    0% {
+        transform: translateY(-3000px);
+    }
+    60% {
+        transform: translateY(25px);
+    }
+    75% {
+        transform: translateY(-15px);
+        
+    }
+    90% {
+        transform: translateY(5px);
+    }
+}
+.hero h4, h1, span {
+    animation: right-center 1.2s   forwards;
+    
+}
+@keyframes right-center {
+    0% {
+        transform: translateX(3000px);
+    }
+    60% {
+        transform: translateX(-25px);
+    }
+    75% {
+        transform: translateX(15px);
+        
+    }
+    90% {
+        transform: translateX(-5px);
+    }
+}
+.services article {
+    animation: left-center 1.2s forwards;
+}
+@keyframes left-center {
+    0% {
+        transform: translateX(-3000px);
+    }
+    60% {
+        transform: translateX(25px);
+    }
+    75% {
+        transform: translateX(-15px);
+        
+    }
+    90% {
+        transform: translateX(5px);
+    }
+}

@@ -1,0 +1,29 @@
+.social {
+    display: block;
+    position: fixed;
+    top: 40%;
+    right: 0;
+    font-size: 1.5em;
+    list-style: none;
+}
+.social ul {
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    list-style: none;
+    justify-content: left;
+    border: 1px solid  black;
+    border-right: none;
+    padding: .25em;
+
+}
+.social li {
+    padding-bottom: .5em;
+
+}
+.social a {
+    color: black;
+}
+.fa-envelope {
+    font-size: 1em;
+}

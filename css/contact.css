@@ -1,0 +1,82 @@
+.contact {
+    background-color: #f0efef;
+    padding: 3em;
+}
+.contact h1 {
+    text-align: center;
+    font-size: 2em;
+}
+.contact p {
+    text-decoration: overline;
+    text-align: center;
+    font-size: 1.5em;
+}
+.name-email-container {
+    display: flex;
+    justify-content: space-between;
+}
+.label-name, .label-email {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+.name-container, .email-container {
+    width: 40%;
+}
+.contacto-name, .contacto-email {
+    width: 100%;
+    border-bottom: solid 2px #0b93ee;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    
+}
+.message-container {
+    text-align: center;
+    justify-content: center;
+}
+.label-message {
+    display: block;
+    font-size: 1.5em;
+}
+
+#contacto-message {
+    width: 100%;
+    /* height: 50px; */
+    border: solid 2px #0b93ee;
+}
+.hero-btn {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    padding: .5em;
+    border-radius: 5px;
+    background-color : rgba(166,166,166, 0.9);
+}
+.hero-btn a {
+    color: white;
+    text-decoration: none;
+}
+.btn-contact {
+    text-align: center;
+    padding: .6em .8em .8em;
+    border: none;
+    color: white;
+    background: lightgray;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: inset 0 -.2em rgba(0, 0, 0, .2);
+    outline: 0;
+    transition: .2s;
+    will-change: transform;
+}
+.btn-contact.primary {
+    background: #ff6600;
+}
+
+.btn-contact:active {
+    transform: scale(.9);
+}
+

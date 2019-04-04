@@ -1,0 +1,43 @@
+.fa, .far, .fas, .fal {
+    font-family: Font Awesome\ 5 Free;
+    /* font-size: 35px; */
+}
+.fa-certificate, .fa-code, .fa-chart-line {
+    font-size: 3em;
+}
+.fa-mobile {
+    font-size: 2em;
+}
+.fa-tablet {
+    font-size: 2.5em;
+}
+.fa-desktop {
+    font-size: 3em;
+}
+.services {
+    background-color: #f0efef;
+}
+
+
+.services-title {
+    text-align: center;
+    font-size: 3.5em;
+    margin: 0;
+    padding-top: 1.5em;
+    /* padding-bottom: .5em; */
+}
+.services-article {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 
+}
+.services article {
+    margin: 1em;
+    border: solid 1px #888888;
+    width: 30%;
+    text-align: center;
+    padding: 3em;
+    box-shadow: 1px 3px 9px 1px #888888;
+    background-color: white;
+}

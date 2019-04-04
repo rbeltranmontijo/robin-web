@@ -1,0 +1,117 @@
+@media sceen and (min-width: 2561px) {
+    .menu-burguer {
+        display: none;
+    }
+}
+@media screen and (max-width: 2560px) and (min-width: 1025px) {
+    body {
+        font-size: 20px;
+    }
+    .burguer-menu {
+        display: none;
+    }
+    .menu-burguer {
+        display: none;
+    }
+    
+    
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .burguer-menu {
+        display: none;
+    }
+    .menu-burguer {
+        display: none;
+    }
+}
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 10px;
+    }
+    .header {
+        display: none;
+    }
+    .header h4 {
+        font-size: 2em;
+    }
+    .social {
+        display: none;
+    }
+    .container-header-hero li {
+        display: block; 
+    }
+    .burguer-menu {
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        z-index: 5;
+        /* right: 5px;
+        top: 5px; */
+        background-color: rgba(0,0,0,.8);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+        color: white;
+    }
+    .menu-burguer  {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        left: -1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        background: rgba(166,166,166, 0.9);
+        font-size: 3em;
+        transition: .3s;
+    }
+    .menu-burguer.is-active {
+        left: 0;
+    }
+    .menu-burguer a {
+        color: black;
+        height: 40px;
+        
+    }
+    .menu-burguer li {
+        list-style: none;
+        padding-bottom: 1em;
+    }
+    .services h3 {
+        font-size: 2.5em;
+    }
+    .services p {
+        font-size: 2em;
+    }
+    .services article {
+        min-width: 75%;
+    }
+    .portfolio article {
+        min-width: 75%;
+    }
+    .portfolio h3 {
+        font-size: 2em;
+    }
+    .hero h4 {
+        font-size: 1.8em;
+        padding-top: 2em;
+    }
+    .name-email-container {
+        display: block
+    }
+    .name-container, .email-container {
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 766px) {
+}
+
