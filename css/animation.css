@@ -22,7 +22,7 @@
 }
 @keyframes right-center {
     0% {
-        transform: translateX(3000px);
+        transform: translateX(-3000px);
     }
     60% {
         transform: translateX(25px);
