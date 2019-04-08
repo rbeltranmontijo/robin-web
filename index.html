@@ -173,26 +173,31 @@
     <section id="contacto" class="contact">
         <h1>Enviame un mensaje</h1>
         <p>Si quieres un sitio responsivo o rediseñar tu sitio o alguna entrevista de trabajo</p>
-        <form action="">
+        <form class="gform"thod="POST" action="https://script.google.com/macros/s/AKfycbwv7r9cid7ur7gdkGY5szatPtGWZ7N67Po31ME3/exec">
             <div class="name-email-container">
                 <div class="name-container">
                     <label class="label-name" for="contacto-name">Nombre:</label>
-                    <input class="contacto-name" id="contacto-name" type="text" placeholder="Nombre..." autocomplete="on" required>
+                    <input class="contacto-name" name="name" id="contacto-name" type="text" placeholder="Nombre..." autocomplete="on" required>
                 </div>
                 <div class="email-container">
                     <label class="label-email" for="contacto-email">email:</label>
-                    <input class="contacto-email" id="contacto-email" type="email" placeholder="email" autocomplete="on" required>
+                    <input class="contacto-email" name="email" id="contacto-email" type="email" placeholder="email" autocomplete="on" required>
                 </div>
             </div>
             <div class="message-container">
                 <label class="label-message" for="contacto-message">Mensaje:</label>
-                <textarea id="contacto-message" type="email" placeholder="Tu mensaje aqui" autocomplete="on" rows="8" required></textarea>
+                <textarea id="contacto-message" name="message" type="email" placeholder="Tu mensaje aqui" autocomplete="on" rows="8" required></textarea>
             </div>
             <div class="hero-button">
-                    <button class="hero-btn btn-contact primary">
-                        <a href="#contacto">no funciona</a>
+                    <button type="submit" class="hero-btn btn-contact primary">
+                        Contactame
                     </button>
                 </div>
+            <div style="display:none" class="thankyou_message">
+            <!-- You can customize the thankyou message by editing the code below -->
+                <h2><em>Gracias</em> por contactarme! Te respondere muy pronto!
+                </h2>
+            </div>
         </form>
     </section>
     <footer class="footer">
@@ -240,5 +245,6 @@
 
         
     </script>
+    <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
 </body>
 </html>
