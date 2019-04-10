@@ -66,9 +66,9 @@
     </div>
     <div class="modal">
         <div class="container-header-hero">
-            <header class="header" id="home">
+            <header class="header " id="home">
                 <div class="logo">
-                    <p>RM</p>
+                    <p class="logo-text ">RM</p>
                 </div>
                 <nav>
                     <ul>
@@ -207,16 +207,30 @@
         </div>
     </footer>
     <script>
-    // const $header = document.getElementById('home');
-    // window.addEventListener('scroll', (event) =>{
-    //         // console.log('scroll');
-    //         if(window.scrollTop() > 50) {
-    //             $header.classList.add('active');
-    //         }
-    //         else {
-    //             $header.classList.remove('active');
-    //     }
-    //     });
+        window.onscroll = function() {myFunction()};
+
+        const home =  document.querySelector('.header');;
+        const logo =  document.querySelector('.logo-text');
+        const social =  document.querySelector('.social');
+        
+        function myFunction() {
+                if (document.documentElement.scrollTop > 600) {
+                    // 
+                  home.classList.add('fondo');
+                  logo.classList.add('logo-small');
+                }
+                else {
+                    home.classList.remove('fondo');
+                    logo.classList.remove('logo-small');}
+
+                if (document.documentElement.scrollTop > 400) {
+                    social.classList.remove('hide');
+                }
+                else social.classList.add('hide');
+            };
+
+    
+
         const menu = document.querySelector('.menu-burguer');
         const burguerButton = document.querySelector('.burguer-menu');
         const menuHome = document.querySelector('.menu-home');
